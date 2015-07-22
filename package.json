@@ -1,0 +1,15 @@
+{
+  "name": "is-local-path",
+  "version": "0.0.0",
+  "description": "Test whether a path is local.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5"
+  }
+}
