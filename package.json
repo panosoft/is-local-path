@@ -1,6 +1,6 @@
 {
   "name": "is-local-path",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Test whether a path is local.",
   "repository": "panosoft/is-local-path",
   "main": "lib/index.js",
