@@ -2,6 +2,8 @@
 
 Test whether a path is local.
 
+[![Travis](https://img.shields.io/travis/panosoft/is-local-path.svg)]()
+
 ## Installation
 
 In npm, do
