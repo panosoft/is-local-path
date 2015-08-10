@@ -14,11 +14,14 @@ Test whether a path is local.
 
 ## Usage
 
-	var isLocalPath = require('is-local-path');
+```js
+var isLocalPath = require('is-local-path');
 
-	isLocalPath('/path/to/file.ext')); // true
-    isLocalPath('/path/to/directory')); // true
-    isLocalPath('./relative/path')); // true
-    isLocalPath('../relative/path')); // true
-    isLocalPath('data:text/plain;base64,SGVsbG8sIFdvcmxkIQ%3D%3D')); // false
-    isLocalPath('http://host.com/path/to/file.ext')); // false
+isLocalPath('/path/to/file.ext')); // true
+isLocalPath('/path/to/directory')); // true
+isLocalPath('./relative/path')); // true
+isLocalPath('../relative/path')); // true
+
+isLocalPath('data:text/plain;base64,SGVsbG8sIFdvcmxkIQ%3D%3D')); // false
+isLocalPath('http://host.com/path/to/file.ext')); // false
+```
