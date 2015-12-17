@@ -34,7 +34,7 @@ isLocalPath('data:text/plain;base64,SGVsbG8sIFdvcmxkIQ%3D%3D')); // false
 
 ---
 
-<a name-"isLocalPath"/>
+<a name="isLocalPath"></a>
 ### isLocalPath ( string )
 
 Tests whether a `string` is a local path.
